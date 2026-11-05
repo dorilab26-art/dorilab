@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Dorilab Dorilocos en Cartagena: arma tu Dorilocos Mini o Maxi y pídelo por WhatsApp.">
+<meta name="theme-color" content="#2A0E12">
+<meta property="og:title" content="Dorilab · Dorilocos Cartagena">
+<meta property="og:description" content="Doritos cargados de sabor. Arma tu pedido y prográmalo.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔥%3C/text%3E%3C/svg%3E">
+<title>Dorilab · Dorilocos Cartagena</title>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Figtree:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--y:#2A0E12;--sun:#FF8A2B;--navy:#2A0E12;--red:#E3262E;--org:#FF8A1F;--cream:#FFF8D6;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth}*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:radial-gradient(110% 50% at 50% 0,#6A1A1A,transparent 72%) no-repeat,var(--y);color:var(--cream);font-family:Figtree,system-ui,sans-serif;font-weight:500;line-height:1.5;overflow-x:hidden;padding-bottom:100px}
+h1,h2{font-family:'Bowlby One',Impact,sans-serif;font-weight:400;line-height:.95;margin:0}
+.glass{position:relative;background:linear-gradient(135deg,rgba(255,255,255,.2),rgba(255,255,255,.05));backdrop-filter:blur(16px) saturate(170%);-webkit-backdrop-filter:blur(16px) saturate(170%);border:1px solid rgba(255,255,255,.7);border-radius:28px;box-shadow:inset 0 1.5px 0 rgba(255,255,255,.9),inset 0 -8px 18px rgba(255,255,255,.12),0 14px 34px rgba(23,32,92,.22);overflow:hidden}
+.glass::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(260px circle at var(--mx,30%) var(--my,0%),rgba(255,255,255,.65),transparent 60%);opacity:.7}
+.btn{display:inline-block;border:0;border-radius:999px;background:var(--sun);color:var(--navy);font:800 16px Figtree,sans-serif;padding:15px 28px;cursor:pointer;text-decoration:none;box-shadow:0 6px 0 #0b1138;transition:transform .15s,box-shadow .15s}
+.btn:active{transform:translateY(5px);box-shadow:0 1px 0 #0b1138}
+.btn.g{background:rgba(255,255,255,.16);color:var(--cream);box-shadow:inset 0 1px 0 #fff,0 6px 18px rgba(23,32,92,.2);backdrop-filter:blur(12px)}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+/* hero */
+.hero{position:relative;min-height:100svh;display:grid;place-items:center;text-align:center;overflow:hidden;padding:30px 0 70px}
+.big{position:absolute;top:10%;left:50%;transform:translateX(calc(-50% + var(--hx,0px)));font-family:'Bowlby One',Impact;font-size:clamp(90px,31vw,300px);color:transparent;-webkit-text-stroke:3px var(--sun);white-space:nowrap;opacity:.9;user-select:none}
+.cup{position:relative;width:min(74vw,380px);margin-top:12vh;transform:translateY(var(--cy,0px)) rotate(var(--cr,-6deg));-webkit-mask-image:radial-gradient(closest-side,#000 74%,transparent 100%);mask-image:radial-gradient(closest-side,#000 74%,transparent 100%);filter:drop-shadow(0 30px 30px rgba(23,32,92,.3))}
+.hero .tag{position:relative;margin-top:-10px;padding:16px 22px;max-width:340px}
+.hero h1{font-size:30px;color:var(--cream)}.hero p{margin:8px 0 14px}
+.hero .ctas{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+/* ticker */
+.tick{background:var(--sun);color:var(--navy);overflow:hidden;white-space:nowrap;padding:12px 0;font-family:'Bowlby One';font-size:22px;transform:rotate(-1.5deg);margin:-14px -10px 0;position:relative;z-index:2}
+.tick div{display:inline-block;animation:tk 22s linear infinite}@keyframes tk{to{transform:translateX(-50%)}}
+/* story */
+.story{height:240vh;position:relative}
+.pin{position:sticky;top:0;height:100svh;overflow:hidden;display:grid;place-items:center}
+.ring{position:absolute;width:118vmin;height:118vmin;border-radius:50%;object-fit:cover;transform:rotate(var(--rr,0deg)) scale(var(--rs,1));box-shadow:0 0 0 10px var(--cream)}
+.pour{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;clip-path:circle(var(--pc,0%) at 50% 42%)}
+.steps{position:absolute;left:16px;right:16px;bottom:calc(24px + env(safe-area-inset-bottom,0px));max-width:560px;margin:0 auto;padding:20px 22px;background:rgba(50,8,4,.62)}
+.steps h2{font-size:28px;margin-bottom:6px}.steps p{margin:0}
+.dots{display:flex;gap:6px;margin-bottom:12px}.dots i{height:6px;flex:1;border-radius:9px;background:rgba(255,255,255,.25)}.dots i.on{background:var(--sun)}
+.stitle{position:absolute;top:22px;left:20px;right:20px;text-align:center;font-family:'Bowlby One';font-size:22px;z-index:2;color:var(--cream);text-shadow:0 2px 14px rgba(40,5,0,.85)}
+/* sections */
+section.s{padding:50px 0}
+section.s>.wrap>h2{color:var(--sun);font-size:clamp(40px,12vw,64px);margin-bottom:8px}
+.sub{margin:0 0 22px;max-width:36ch}
+.item{padding:18px;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.item b{font-size:19px}.item small{display:block;opacity:.8}.pr{color:var(--sun);font-weight:800}
+.stp{display:flex;align-items:center;gap:10px;position:relative;z-index:1}
+.stp button{width:42px;height:42px;border-radius:50%;border:0;background:var(--sun);color:var(--navy);font:800 22px Figtree;cursor:pointer}
+.stp span{min-width:18px;text-align:center;font-weight:800}
+form{display:grid;gap:14px;padding:22px}
+label{display:grid;gap:6px;font-weight:700;position:relative;z-index:1}
+input,select,textarea{width:100%;padding:13px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.8);background:rgba(255,255,255,.55);color:var(--navy);font:500 16px Figtree,sans-serif}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:relative;z-index:1}.seg label{display:block}.seg input{position:absolute;opacity:0}
+.seg span{display:block;text-align:center;padding:13px;border-radius:14px;border:2px solid rgba(255,255,255,.8);cursor:pointer;font-weight:700}
+.seg input:checked+span{background:var(--navy);color:#fff;border-color:var(--navy)}
+.seg input:focus-visible+span{outline:3px solid var(--sun)}
+.sum{background:rgba(255,255,255,.5);color:var(--navy);border-radius:16px;padding:14px;position:relative;z-index:1}.sum div{display:flex;justify-content:space-between}.sum .t{font-weight:800;font-size:20px;border-top:1px solid rgba(23,32,92,.25);margin-top:8px;padding-top:8px}
+.err{color:var(--sun);font-weight:800;min-height:1.4em;margin:0;position:relative;z-index:1}
+.cta2{display:grid;gap:12px}
+footer{text-align:center;padding:10px 20px 30px;opacity:.75;font-size:14px}
+.bar{position:fixed;z-index:9;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom,0px));width:min(92vw,460px);padding:10px 12px 10px 22px;border-radius:999px;display:flex;justify-content:space-between;align-items:center}
+.bar b{font-size:20px;position:relative;z-index:1}.bar .btn{padding:11px 22px;position:relative;z-index:1}
+@media (prefers-reduced-motion:reduce){.tick div{animation:none}}
+
+h3{font-size:18px;margin:28px 0 10px}
+.sizes{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:end}
+.size{padding:14px 8px;text-align:center;color:inherit;font:inherit;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px}
+.size[aria-pressed=true],.tp[aria-pressed=true]{outline:3px solid var(--sun);outline-offset:-3px}
+.simg{width:auto;-webkit-mask-image:radial-gradient(closest-side,#000 74%,transparent);mask-image:radial-gradient(closest-side,#000 74%,transparent)}
+.simg.m{height:96px}.simg.x{height:150px}
+.size b{font-family:'Bowlby One';font-size:24px;font-weight:400}.size small{opacity:.85}.size .pr{font-size:18px}
+.tps{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tp{display:flex;gap:10px;align-items:center;text-align:left;padding:10px 12px;border-radius:18px;color:inherit;font:inherit;cursor:pointer}
+.tp i{flex:none;width:28px;height:28px;border-radius:50%;border:2px solid rgba(255,255,255,.7);position:relative;z-index:1}
+.tp span{position:relative;z-index:1}.tp b{display:block;font-size:14px;line-height:1.2}.tp small{opacity:.8;font-size:12px;line-height:1.2;display:block}
+.tp[aria-pressed=true]{background:rgba(255,138,43,.28)}
+.bots{display:flex;justify-content:space-around;gap:6px}
+.bot{background:none;border:0;color:inherit;font:inherit;cursor:pointer;display:grid;justify-items:center;gap:4px;padding:6px;transition:transform .25s,filter .25s}
+.bot svg{width:64px;height:128px}.bot span{font-weight:800;font-size:14px}
+.bot[aria-pressed=true]{transform:translateY(-10px) scale(1.08);filter:drop-shadow(0 0 14px var(--sun))}
+.rm{border:0;background:none;color:#B3261E;font-weight:800;cursor:pointer;margin-left:6px}
+.ov{position:fixed;inset:0;z-index:30;background:rgba(20,5,8,.72);display:none;place-items:center;padding:20px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.ov.on{display:grid}.ov .glass{width:min(100%,460px);padding:24px;background:rgba(50,8,4,.85);display:grid;gap:12px;max-height:90svh;overflow:auto}
+.ov h2{font-size:30px;color:var(--sun)}.ov p{margin:0;position:relative;z-index:1}.ov .btn{text-align:center;position:relative;z-index:1}
+.ov pre{margin:0;white-space:pre-wrap;font:500 13px Figtree,sans-serif;background:rgba(255,255,255,.1);border-radius:14px;padding:12px;max-height:28svh;overflow:auto;position:relative;z-index:1}
+.note{margin:0;font-size:14px;opacity:.85;text-align:center;position:relative;z-index:1}
+.qty{display:flex;align-items:center;gap:18px}.qty button{width:52px;height:52px;border-radius:50%;border:0;background:var(--sun);color:var(--navy);font:800 28px Figtree;cursor:pointer}.qty b{font-family:'Bowlby One';font-size:32px;font-weight:400;min-width:40px;text-align:center}
+</style></head><body>
+<header class="hero" id="top">
+<div class="big" aria-hidden="true">DORILOCOS</div>
+<img class="cup" src="cup.jpg" alt="Vaso Dorilab Dorilocos cargado de queso y guacamole">
+<div class="glass tag"><h1>Doritos cargados de sabor</h1><p>Hechos en Cartagena. Arma tu pedido y prográmalo.</p>
+<div class="ctas"><a class="btn" href="#menu">Pedir ahora</a><a class="btn g" href="#capas">Cómo se arma</a></div></div>
+</header>
+<div class="tick" aria-hidden="true"><div id="tk"></div></div>
+
+<div class="story" id="capas"><div class="pin">
+<img class="ring" id="ring" src="ring.jpg" alt="Doritos alrededor de guacamole">
+<img class="pour" id="pour" src="pour.jpg" alt="Salsas cayendo sobre un Dorilocos">
+<div class="stitle">Capa por capa</div>
+<div class="glass steps"><div class="dots" id="dots"><i></i><i></i><i></i><i></i></div><h2 id="sh"></h2><p id="sp"></p></div>
+</div></div>
+
+<section class="s" id="menu"><div class="wrap">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="bt" viewBox="0 0 60 120"><path d="M27 4h6l6 32c6 4 9 9 9 16v50a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V52c0-7 3-12 9-16z" fill="currentColor"/><rect x="16" y="54" width="4" height="44" rx="2" fill="#fff" opacity=".35"/><polygon points="17,64 43,64 30,92" fill="#fff" stroke="#2A0E12" stroke-width="2" stroke-linejoin="round"/><text x="30" y="79" text-anchor="middle" font-size="12" font-family="Bowlby One,Impact" fill="#2A0E12">D</text></symbol></svg>
+<h2>Arma tu Dorilocos</h2><p class="sub">Antojos, sabor y diversión. Todos los toppings están incluidos en el precio.</p>
+<h3>1. Elige tu tamaño</h3>
+<div class="sizes">
+<button type="button" class="glass size" data-size="Mini" aria-pressed="false"><img class="simg m" alt=""><b>MINI</b><small>8 oz</small><small>Para calmar el antojo</small><span class="pr" id="pMini"></span></button>
+<button type="button" class="glass size" data-size="Maxi" aria-pressed="false"><img class="simg x" alt=""><b>MAXI</b><small>16 oz</small><small>Para un antojo más grande</small><span class="pr" id="pMaxi"></span></button></div>
+<h3>2. Elige tus toppings</h3><div class="tps" id="tps"></div>
+<h3>3. Elige tus salsas</h3><p class="sub" style="margin-bottom:8px">Tres salsas de la casa para darle tu toque favorito.</p><div class="bots" id="bots"></div>
+<h3>4. ¿Cuántos quieres?</h3><div class="qty"><button type="button" data-q="-1" aria-label="Menos">−</button><b id="qv">1</b><button type="button" data-q="1" aria-label="Más">+</button></div><p class="sub" style="margin:8px 0 0">Los toppings y salsas se repiten en todos. Para armar otro distinto, agrega este y vuelve a elegir.</p>
+<p class="err" id="mm" role="alert" style="margin-top:18px"></p>
+<button class="btn" id="add" type="button">Agregar al pedido</button>
+<p class="sub" style="margin:14px 0 0">Más toppings, más sabor. Tú eliges cómo combinarlo, nosotros lo preparamos.</p>
+</div></section>
+
+<section class="s" id="pedido"><div class="wrap">
+<h2>Programa tu pedido</h2><p class="sub">Te confirmamos por WhatsApp antes de prepararlo.</p>
+<form class="glass" id="f" novalidate>
+<label>Nombre<input id="nombre" autocomplete="name"></label>
+<label>Tu WhatsApp<input id="tel" type="tel" inputmode="tel" autocomplete="tel"></label>
+<div class="seg" role="radiogroup" aria-label="Entrega"><label><input type="radio" name="tipo" value="Domicilio" checked><span>Domicilio</span></label><label><input type="radio" name="tipo" value="Recoger"><span>Recoger</span></label></div>
+<label id="dirL">Dirección o punto de encuentro<input id="dir" autocomplete="street-address"></label>
+<div class="row"><label>Fecha<input id="fecha" type="date"></label><label>Hora<select id="hora"></select></label></div>
+<label>Notas (opcional)<textarea id="nota" rows="2" placeholder="Sin picante, extra queso…"></textarea></label>
+<div class="sum" id="sum" aria-live="polite"></div><p class="err" id="err" role="alert"></p>
+<button class="btn" type="submit">Enviar pedido por WhatsApp</button><p class="note">Se abre WhatsApp con tu pedido ya escrito. Solo toca enviar.</p></form></div></section>
+
+<section class="s" id="contacto"><div class="wrap">
+<h2>Contacto</h2><p class="sub">¿Eventos, pedidos grandes o dudas? Escríbenos.</p>
+<div class="cta2"><a class="btn" id="wa" href="#">Escribir por WhatsApp</a><a class="btn g" href="https://instagram.com/dorilab.ctg" target="_blank" rel="noopener">Instagram @dorilab.ctg</a></div></div></section>
+<footer>Dorilab · Cartagena de Indias</footer>
+<div class="glass bar"><div><small>Tu pedido</small><br><b id="bt">$0</b></div><a class="btn" href="#pedido">Continuar</a></div>
+
+<div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="ovt"><div class="glass"><h2 id="ovt">Tu pedido está listo</h2><p id="ovn"></p><pre id="ovm"></pre><p><b>Falta un paso:</b> abre WhatsApp y toca enviar. El pedido ya va escrito, no tienes que repetir nada.</p><a class="btn" id="go" href="#" target="_blank" rel="noopener">Abrir WhatsApp y enviar</a><button class="btn g" type="button" id="cp">Copiar pedido</button><button class="btn g" type="button" id="cl">Volver y editar</button></div></div>
+<script>
+var WHATSAPP="573181418725"; // EDITA: código de país + número, sin + ni espacios
+var MENU=[{id:1,n:"Dorilocos clásico",d:"Doritos, queso, guacamole y salsas de la casa",p:14000},{id:2,n:"Dorilocos mixto",d:"Con pollo desmechado y queso",p:18000},{id:3,n:"Dorilocos especial",d:"Cargado: carne, tocineta, maíz y doble queso",p:22000},{id:4,n:"Doritos con queso",d:"Porción sencilla para picar",p:9000},{id:5,n:"Topping adicional",d:"Queso, tocineta, jalapeño o salsa extra",p:3000},{id:6,n:"Gaseosa",d:"Bebida fría 400 ml",p:4000}];
+var STEPS=[["Doritos crujientes","La base: Doritos enteros, sin piedad."],["Guacamole fresco","Aguacate preparado al momento."],["Queso a lo loco","Queso fundido y rallado por capas."],["Salsas al final","Dos salsas que caen sobre todo. Listo."]];
+var cart={},$=function(i){return document.getElementById(i)},money=function(n){return "$"+n.toLocaleString("es-CO")};
+$("tk").innerHTML=Array(12).join("DORILOCOS ▲ CARTAGENA ▲ DORILAB ▲ ");
+var PR={Mini:12000,Maxi:20000}; // EDITA: precios reales
+var TP=[["Doritos Flaming Hot","Picante intenso","#D8261E"],["Dorito nacho cheese","El clásico","#FF8A2B"],["Maíz","Dulce y jugoso","#F5C934"],["Pollo desmechado","Sabroso y suave","#C99A66"],["Tomate","Frescura natural","#E5392F"],["Cebolla","Un toque crujiente","#F2EAD3"],["Cilantro","Aroma y frescura","#4E9A4A"],["Queso rallado","El toque cremoso","#FFE8A8"]];
+var SA=[["Tártara","#F3E3B8"],["Chipotle","#C4561B"],["La secreta","#E8B32A"]];
+var qty=1,combos=[],sel={s:null,t:{},a:{}};
+function L(){return combos.map(function(c){return{q:c.q,m:{n:"Dorilocos "+c.s.toUpperCase()+" ("+(c.s==="Mini"?"8":"16")+" oz)",p:PR[c.s]},d:c.t.join(", ")+(c.a.length?"; salsas: "+c.a.join(", "):"")}})}
+function T(){return L().reduce(function(a,l){return a+l.q*l.m.p},0)}
+$("pMini").textContent=money(PR.Mini);$("pMaxi").textContent=money(PR.Maxi);
+document.querySelectorAll(".simg").forEach(function(i){i.src=document.querySelector(".cup").src});
+$("tps").innerHTML=TP.map(function(t,i){return '<button type="button" class="glass tp" data-tp="'+i+'" aria-pressed="false"><i style="background:'+t[2]+'"></i><span><b>'+t[0]+'</b><small>'+t[1]+'</small></span></button>'}).join("");
+$("bots").innerHTML=SA.map(function(a,i){return '<button type="button" class="bot" data-sa="'+i+'" aria-pressed="false" style="color:'+a[1]+'"><svg viewBox="0 0 60 120" aria-hidden="true"><use href="#bt"/></svg><span style="color:#FFF8D6">'+a[0]+'</span></button>'}).join("");
+function pressed(){document.querySelectorAll("[data-size]").forEach(function(b){b.setAttribute("aria-pressed",sel.s===b.dataset.size)});document.querySelectorAll("[data-tp]").forEach(function(b){b.setAttribute("aria-pressed",!!sel.t[b.dataset.tp])});document.querySelectorAll("[data-sa]").forEach(function(b){b.setAttribute("aria-pressed",!!sel.a[b.dataset.sa])})}
+function render(){var l=L();$("sum").innerHTML=l.length?l.map(function(x,i){return '<div><span>'+(x.q>1?x.q+" × ":"")+x.m.n+'<small style="display:block;opacity:.8">'+x.d+'</small></span><span>'+money(x.q*x.m.p)+'<button type="button" class="rm" data-rm="'+i+'" aria-label="Quitar">✕</button></span></div>'}).join("")+'<div class="t"><span>Total</span><span>'+money(T())+'</span></div>':'Aún no agregas productos. Vuelve al menú.';$("bt").textContent=money(T());pressed()}
+$("menu").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;
+if(b.dataset.size)sel.s=b.dataset.size;
+else if(b.dataset.tp!==undefined)sel.t[b.dataset.tp]=!sel.t[b.dataset.tp];
+else if(b.dataset.sa!==undefined)sel.a[b.dataset.sa]=!sel.a[b.dataset.sa];
+else if(b.dataset.q){qty=Math.max(1,Math.min(20,qty+Number(b.dataset.q)));$("qv").textContent=qty;return}
+else if(b.id==="add"){var t=TP.filter(function(x,i){return sel.t[i]}).map(function(x){return x[0]}),a=SA.filter(function(x,i){return sel.a[i]}).map(function(x){return x[0]});
+if(!sel.s){$("mm").textContent="Elige el tamaño: Mini o Maxi.";return}
+if(!t.length){$("mm").textContent="Elige al menos un topping.";return}
+combos.push({s:sel.s,t:t,a:a,q:qty});qty=1;$("qv").textContent=1;sel.t={};sel.a={};$("mm").textContent="";render();$("bt").animate([{transform:"scale(1.3)"},{transform:"scale(1)"}],300);return}
+pressed()});
+$("sum").addEventListener("click",function(e){var b=e.target.closest("[data-rm]");if(b){combos.splice(Number(b.dataset.rm),1);render()}});
+var h=$("hora");for(var i=11;i<=21;i++)["00","30"].forEach(function(mm){var v=(i%12||12)+":"+mm+(i<12?" a. m.":" p. m.");h.add(new Option(v,v))});
+var d=new Date();$("fecha").min=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+document.querySelectorAll("input[name=tipo]").forEach(function(r){r.addEventListener("change",function(){$("dirL").style.display=r.value==="Recoger"&&r.checked?"none":"grid"})});
+$("wa").href="https://wa.me/"+WHATSAPP+"?text="+encodeURIComponent("Hola Dorilab, quiero más información.");
+$("f").addEventListener("submit",function(e){e.preventDefault();var tp=document.querySelector("input[name=tipo]:checked").value,m="";
+if(!L().length)m="Agrega al menos un producto del menú.";else if(!$("nombre").value.trim())m="Escribe tu nombre.";else if($("tel").value.replace(/\D/g,"").length<7)m="Escribe un número de WhatsApp válido.";else if(tp==="Domicilio"&&!$("dir").value.trim())m="Escribe la dirección de entrega.";else if(!$("fecha").value)m="Elige la fecha del pedido.";
+$("err").textContent=m;if(m)return;
+var n=new Date(),no="DL-"+String(n.getMonth()+1).padStart(2,"0")+String(n.getDate()).padStart(2,"0")+"-"+Math.floor(100+Math.random()*900);
+var t="*Nuevo pedido "+no+"*\nHola Dorilab, este es mi pedido:\n\n"+L().map(function(x,i){return "*"+(i+1)+". "+(x.q>1?x.q+" × ":"")+x.m.n+"* – "+money(x.q*x.m.p)+"\n"+x.d.replace("; salsas: ","\nSalsas: ").replace(/^/,"Toppings: ")}).join("\n\n")+"\n\n*Total: "+money(T())+"*\n\n*Entrega:* "+tp+(tp==="Domicilio"?"\n*Dirección:* "+$("dir").value.trim():"")+"\n*Fecha y hora:* "+$("fecha").value+", "+$("hora").value+"\n*Nombre:* "+$("nombre").value.trim()+"\n*WhatsApp:* "+$("tel").value.trim()+($("nota").value.trim()?"\n*Notas:* "+$("nota").value.trim():"");
+var u="https://wa.me/"+WHATSAPP+"?text="+encodeURIComponent(t);
+$("ovn").textContent="Número de pedido: "+no;$("ovm").textContent=t;$("go").href=u;$("ov").className="ov on";$("ov").dataset.msg=t;
+window.open(u,"_blank")});
+$("cl").addEventListener("click",function(){$("ov").className="ov"});
+$("cp").addEventListener("click",function(){var b=$("cp");try{navigator.clipboard.writeText($("ov").dataset.msg).then(function(){b.textContent="Copiado"},function(){b.textContent="No se pudo copiar"})}catch(e){b.textContent="No se pudo copiar"}});
+/* efectos de scroll */
+var root=document.documentElement,st=$("capas"),last=-1,tk=0;
+function clamp(v){return Math.max(0,Math.min(1,v))}
+function frame(){tk=0;var y=scrollY,vh=innerHeight;
+var hp=clamp(y/(vh*.7));root.style.setProperty("--cy",(hp*-70)+"px");root.style.setProperty("--cr",(-6+hp*14)+"deg");root.style.setProperty("--hx",(hp*-160)+"px");
+var r=st.getBoundingClientRect(),p=clamp(-r.top/(r.height-vh));
+root.style.setProperty("--rr",(p*260)+"deg");root.style.setProperty("--rs",1+p*.25);
+root.style.setProperty("--pc",(clamp((p-.42)/.4)*150)+"%");
+var k=Math.min(3,Math.floor(p*4));if(k!==last){last=k;$("sh").textContent=STEPS[k][0];$("sp").textContent=STEPS[k][1];document.querySelectorAll("#dots i").forEach(function(e,i){e.className=i<=k?"on":""})}}
+addEventListener("scroll",function(){if(!tk)tk=requestAnimationFrame(frame)},{passive:true});frame();render();
+/* brillo líquido que sigue el dedo/cursor */
+document.addEventListener("pointermove",function(e){var g=e.target.closest(".glass");if(!g)return;var b=g.getBoundingClientRect();g.style.setProperty("--mx",(e.clientX-b.left)+"px");g.style.setProperty("--my",(e.clientY-b.top)+"px")});
+</script></body></html>
